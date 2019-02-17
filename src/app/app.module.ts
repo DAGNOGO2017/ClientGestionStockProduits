@@ -3,16 +3,25 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProduitComponent } from './produit/produit.component';
+import {produitMockService} from './produit/produit.mock.service';
+import { NavabarComponent } from './navabar/navabar.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProduitComponent,
+    NavabarComponent,
+    SidebarComponent,
+    ContentComponent
   ],
-  imports: [
+  imports: [  
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [produitMockService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
