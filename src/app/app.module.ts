@@ -8,6 +8,7 @@ import {produitMockService} from './produit/produit.mock.service';
 import { NavabarComponent } from './navabar/navabar.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ContentComponent } from './content/content.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ContentComponent } from './content/content.component';
     ProduitComponent,
     NavabarComponent,
     SidebarComponent,
-    ContentComponent
+    ContentComponent,
+    DashboardComponent
   ],
   imports: [  
     BrowserModule,

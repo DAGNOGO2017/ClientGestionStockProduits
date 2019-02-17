@@ -17,6 +17,5 @@ export class ProduitComponent implements OnInit {
     console.log(this.produitService.getProduits());
     console.log(this.produits);
   }
-
 }
  

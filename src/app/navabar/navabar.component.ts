@@ -16,7 +16,7 @@ export class NavabarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
+  } 
 afficherSideBar(){
   this.showSideBar =! this.showSideBar;
   this.showSideBarChange.emit(this.showSideBar);
